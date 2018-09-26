@@ -5,7 +5,7 @@
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/primaryColor</item>
         <item name="colorPrimaryDark">@color/primaryDarkColor</item>
-        <item name="colorAccent">@color/primaryLightColor</item>
+        <item name="colorAccent">@color/primaryColor</item>
     </style>
 
     <style name="AppTheme.NoActionBar">
@@ -16,5 +16,36 @@
     <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
 
     <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="rbPurple" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@android:color/holo_purple</item>
+        <item name="colorControlActivated">@android:color/holo_purple</item>
+    </style>
+    <style name="rbGreen" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@android:color/holo_green_light</item>
+        <item name="colorControlActivated">@android:color/holo_green_light</item>
+    </style>
+    <style name="rbBlue" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@android:color/holo_blue_light</item>
+        <item name="colorControlActivated">@android:color/holo_blue_light</item>
+    </style>
+    <style name="rbYellow" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@android:color/holo_orange_light</item>
+        <item name="colorControlActivated">@android:color/holo_orange_light</item>
+    </style>
+    <style name="rbBrown" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@android:color/darker_gray</item>
+        <item name="colorControlActivated">@android:color/darker_gray</item>
+    </style>
+    <style name="rbRed" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@android:color/holo_red_light</item>
+        <item name="colorControlActivated">@android:color/holo_red_light</item>
+    </style>
+    <style name="rbOrange" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@android:color/holo_purple</item>
+        <item name="colorControlActivated">@android:color/holo_purple</item>
+    </style>
+
+
 
 </resources>

@@ -8,6 +8,68 @@
     tools:context=".Note"
     android:orientation="vertical">
 
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <RadioButton
+            android:id="@+id/radio_purble"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:theme="@style/rbPurple"/>
+
+        <RadioButton
+            android:id="@+id/radio_green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:theme="@style/rbGreen"/>
+
+        <RadioButton
+            android:id="@+id/radio_blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:theme="@style/rbBlue"/>
+
+        <RadioButton
+            android:id="@+id/radio_yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:theme="@style/rbYellow"
+            android:checked="true" />
+        <RadioButton
+            android:id="@+id/radio_brown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:theme="@style/rbBrown"/>
+
+        <RadioButton
+            android:id="@+id/radio_red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:theme="@style/rbRed"/>
+
+        <RadioButton
+            android:id="@+id/radio_orange"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="16dp"
+            android:layout_weight="1"
+            android:theme="@style/rbOrange"/>
+
+    </RadioGroup>
+
     <EditText
         android:id="@+id/etName_note"
         android:layout_width="match_parent"
