@@ -42,8 +42,8 @@
         <item name="colorControlActivated">@android:color/holo_red_light</item>
     </style>
     <style name="rbOrange" parent="Theme.AppCompat.Light">
-        <item name="colorControlNormal">@android:color/holo_purple</item>
-        <item name="colorControlActivated">@android:color/holo_purple</item>
+        <item name="colorControlNormal">@android:color/holo_orange_dark</item>
+        <item name="colorControlActivated">@android:color/holo_orange_dark</item>
     </style>
 
 
