@@ -116,6 +116,7 @@ public class MainActivity extends AppCompatActivity {
                 adapter.delete(itemId);
                 adapter.close();
                 onResume();
+                break;
         }
         return super.onContextItemSelected(item);
     }
